@@ -161,7 +161,7 @@ contract AIREALM is Context, IERC20, Ownable {
     uint8 private constant _decimals = 18;
     uint256 private constant _tTotal = 100000000 * 10**_decimals; // Total supply
     string private constant _name = unicode"AIREALM";  // Name
-    string private constant _symbol = unicode"$AIRM"; // Symbol
+    string private constant _symbol = unicode"AIRM"; // Symbol
     uint256 public _taxSwapThreshold= 100000 * 10**_decimals;
 
     IUniswapV2Router02 private uniswapV2Router;
